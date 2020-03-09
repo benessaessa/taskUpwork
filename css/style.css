@@ -7030,6 +7030,7 @@ i:before {
 }
 .overlay .text h2 a{
   color: white;
+  font-size:24px;
 }
 .overlay .text h2 a:hover{
   color: #c97070;
@@ -7037,14 +7038,21 @@ i:before {
 .margin_left{
   margin-left: 1.8rem;
 }
-.text h5{
+.text h6 a{
+  font-size: 12px;
+  color: white;
   padding-top: 1rem;
+}
+@media screen and (min-width:1100px){
+  .text h6 a{
+    font-size: 18px;
+  } 
 }
 @media screen and (max-width:500px){
   .text{
     bottom: -30px !important;
   }
-  .text h5 ,.text h2,.text p{
+  .text h6 a,.text h2,.text p{
     font-size: 10px;
   }
 }
