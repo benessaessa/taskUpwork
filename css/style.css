@@ -7044,7 +7044,7 @@ i:before {
   .text{
     bottom: -30px !important;
   }
-  .text h5{
-    font-size: 12px;
+  .text h5 ,.text h2,.text p{
+    font-size: 10px;
   }
 }
