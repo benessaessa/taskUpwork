@@ -6980,7 +6980,10 @@ i:before {
 .text-block h2 a:hover{
   color: #ff3334;
 }
-
+.navEdit li a{
+  padding: 0px 11px !important;
+  font-size: 11px !important;
+}
 .navEdit li.active a{
   background-color: #ff3334 !important;
   font-weight: bold;
@@ -7042,6 +7045,40 @@ i:before {
   font-size: 12px;
   color: white;
   padding-top: 1rem;
+}
+
+.leftLine,.rightLine{
+  display: flex;
+  align-items: left;
+  font-weight:bold;
+  justify-content: left;
+  color: #000;
+}
+.leftLine span ,.rightLine span{
+  background: #fff;
+  margin: 0 15px;
+}
+.leftLine:before,
+.rightLine:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  margin-top: 18px;
+  content: '';
+}
+.leftLine::after{
+  background: none;
+}
+.rightLine::before{
+  background: none;
+}
+@media screen and (min-width:1024px){
+  .imgPosition{
+    margin-top: -280px;
+  }
+  .jumbPosition{
+    margin-top: -50px;
+  }
 }
 @media screen and (min-width:1100px){
   .text h6 a{
